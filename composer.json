@@ -1,0 +1,12 @@
+{
+    "name": "atefbb/php_dp",
+    "description": "PHP Design Patterns Practice",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Atef Ben Ali",
+            "email": "atef.bettaib@gmail.com"
+        }
+    ],
+    "require": {}
+}
