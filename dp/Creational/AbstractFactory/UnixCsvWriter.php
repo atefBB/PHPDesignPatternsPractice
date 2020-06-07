@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Creational\AbstracFactory;
+namespace DesignPatterns\Creational\AbstractFactory;
 
 class UnixCsvWriter implements CsvWriter 
 {
