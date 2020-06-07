@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatters\Creational\AbstracFactory;
+namespace DesignPatterns\Creational\AbstracFactory;
 
 interface JsonWriter 
 {
