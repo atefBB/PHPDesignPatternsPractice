@@ -25,10 +25,10 @@ class CarBuilder implements Builder
 	
 	public function addWheel()
 	{
-		$this->car->setPart("weelLF", new Weel());
-		$this->car->setPart("weelRF", new Weel());
-		$this->car->setPart("weelLR", new Weel());
-		$this->car->setPart("weelRR", new Weel());
+		$this->car->setPart("weelLF", new Wheel());
+		$this->car->setPart("weelRF", new Wheel());
+		$this->car->setPart("weelLR", new Wheel());
+		$this->car->setPart("weelRR", new Wheel());
 	}
 
 	public function createVehicle()
