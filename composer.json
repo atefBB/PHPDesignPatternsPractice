@@ -1,12 +1,17 @@
 {
-    "name": "atefbb/php_dp",
-    "description": "PHP Design Patterns Practice",
-    "type": "project",
-    "authors": [
-        {
-            "name": "Atef Ben Ali",
-            "email": "atef.bettaib@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "atefbb/php_dp",
+  "description": "PHP Design Patterns Practice",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Atef Ben Ali",
+      "email": "atef.bettaib@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "DesignPatterns\\": "dp/"
+    }
+  }
 }
