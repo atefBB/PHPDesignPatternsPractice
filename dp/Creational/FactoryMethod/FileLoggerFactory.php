@@ -12,6 +12,6 @@ class FileLoggerFactory implements LoggerFactory
 
 	public function createLogger(): Logger
 	{
-		return new FileLogger($this->filePath)
+		return new FileLogger($this->filePath);
 	}
 }
