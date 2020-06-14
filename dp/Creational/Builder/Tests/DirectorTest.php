@@ -9,19 +9,16 @@ use DesignPatterns\Creational\Builder\CarBuilder;
 use DesignPatterns\Creational\Builder\Director;
 use PHPUnit\Framework\TestCase;
 
-class DirectorTest extends TestCase
-{
-	public function testCanBuildTruck()
-	{
-		$truckBuilder = new TruckBuilder();
-		$newVehicle = (new Director())->build($truckBuilder);
-		$this->assertInstanceOf(Truck::class, $newVehicle);
-	}
+uses(TestCase::class);
 
-	public function testCanBuildCar()
-	{
-		$carBuilder = new CarBuilder();
-		$newVehicle = (new Director())->build($carBuilder);
-		$this->assertInstanceOf(Car::class, $newVehicle);
-	}
-}
+it('can build a truck', function() {
+	$truckBuilder = new TruckBuilder();
+	$newVehicle = (new Director())->build($truckBuilder);
+	$this->assertInstanceOf(Truck::class, $newVehicle);
+});
+
+it('can build a Car', function () {
+	$carBuilder = new CarBuilder();
+	$newVehicle = (new Director())->build($carBuilder);
+	$this->assertInstanceOf(Car::class, $newVehicle);
+});
