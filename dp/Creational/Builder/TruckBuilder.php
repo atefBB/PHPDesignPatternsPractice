@@ -9,7 +9,7 @@ use DesignPatterns\Creational\Builder\Parts\Vehicle;
 
 class TruckBuilder implements Builder
 {
-	private Truck $truck;
+	private $truck;
 
 	public function addDoors()
 	{
