@@ -4,7 +4,7 @@ namespace DesignPatterns\Creational\FactoryMethod;
 
 class FileLogger implements Logger
 {
-	private string $filePath;
+	private $filePath;
 
 	public function __construct(string $filePath)
 	{
