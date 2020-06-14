@@ -9,9 +9,15 @@
     }
   ],
   "require": {},
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "DesignPatterns\\": "dp/"
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=9.0.0 <10.0.0",
+    "pestphp/pest": "^0.1.5"
   }
 }
