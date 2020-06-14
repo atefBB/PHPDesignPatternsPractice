@@ -3,7 +3,7 @@ namespace DesignPatterns\Creational\Builder\Parts;
 
 class Vehicle
 {
-	private array $data = [];
+	private $data = [];
 
 	public function setPart(string $key, object $value)
 	{
