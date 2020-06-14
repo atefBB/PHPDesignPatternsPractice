@@ -24,12 +24,12 @@ class TruckBuilder implements Builder
 	
 	public function addWheel()
 	{
-		$this->truck->setPart("weel1", new Weel());
-		$this->truck->setPart("weel2", new Weel());
-		$this->truck->setPart("weel3", new Weel());
-		$this->truck->setPart("weel4", new Weel());
-		$this->truck->setPart("weel5", new Weel());
-		$this->truck->setPart("weel6", new Weel());
+		$this->truck->setPart("weel1", new Wheel());
+		$this->truck->setPart("weel2", new Wheel());
+		$this->truck->setPart("weel3", new Wheel());
+		$this->truck->setPart("weel4", new Wheel());
+		$this->truck->setPart("weel5", new Wheel());
+		$this->truck->setPart("weel6", new Wheel());
 
 	}
 
