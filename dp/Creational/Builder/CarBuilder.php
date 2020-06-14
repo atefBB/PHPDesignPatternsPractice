@@ -9,7 +9,7 @@ use DesignPatterns\Creational\Builder\Parts\Vehicle;
 
 class CarBuilder implements Builder
 {
-	private Car $car;
+	private $car;
 
 	public function addDoors()
 	{
